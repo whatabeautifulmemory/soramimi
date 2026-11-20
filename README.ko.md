@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/header.png" alt="Soramimi - pixel-art jazz singer" width="480">
+</p>
+
 # Soramimi
 
 두 가지 기능을 하는 아주 작은 macOS 메뉴 막대 유틸리티입니다:
