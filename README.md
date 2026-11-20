@@ -1,8 +1,8 @@
+# Soramimi
+
 <p align="center">
   <img src="assets/header.png" alt="Soramimi - pixel-art jazz singer" width="480">
 </p>
-
-# Soramimi
 
 A tiny macOS menu bar utility that does two things:
 
