@@ -1,6 +1,6 @@
 cask "soramimi" do
   version "1.0.0"
-  sha256 "d5ed66eb8370fd8a90ee2767971983855aa06a8017bfd58a97c36ec5e3236d71"
+  sha256 "62469c3463ea87dced136ef981b45afc3fa6b86befb61f99e7962abce7a93092"
 
   url "https://github.com/whatabeautifulmemory/soramimi/releases/download/v#{version}/Soramimi-#{version}.zip"
   name "Soramimi"
