@@ -45,9 +45,6 @@ make install
 - Optional replacement app or `http(s)` URL.
 - iTunes entries are hidden when iTunes is not installed.
 
-### Menu
-On/off switches for both features, signal/ping settings, blocking policy, last blocked launch, output device, replacement target, login item, About (build time) and quit.
-
 ## Requirements
 
 - macOS 13 or newer.
