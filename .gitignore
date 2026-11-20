@@ -1,0 +1,12 @@
+.DS_Store
+build/
+*.o
+*.dSYM/
+*.zip
+*.tar.gz
+
+# Pixel-art icon drafts/iconsets (the selected icon is in Resources/AppIcon.icns)
+design/icons/
+
+# Private design/audit documentation; never publish
+/docs/

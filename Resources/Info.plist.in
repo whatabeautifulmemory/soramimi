@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  Template for Soramimi. scripts/build.sh substitutes the @TOKENS@.
+
+  Deliberately absent: no URL scheme handlers, no sandbox entitlements, no
+  Accessibility/Screen Recording usage descriptions, no login item helper,
+  no network security exceptions. The app only needs the capabilities of an
+  ordinary user-level process.
+-->
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>Soramimi</string>
+	<key>CFBundleExecutable</key>
+	<string>Soramimi</string>
+	<key>CFBundleIdentifier</key>
+	<string>local.soramimi</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Soramimi</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>@VERSION@</string>
+	<key>CFBundleVersion</key>
+	<string>@BUILD_NUMBER@</string>
+	<key>CFBundleIconFile</key>
+	<string>AppIcon</string>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.utilities</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>13.0</string>
+	<key>LSUIElement</key>
+	<true/>
+	<key>LSMultipleInstancesProhibited</key>
+	<true/>
+	<key>NSHumanReadableCopyright</key>
+	<string>MIT License. Full source code is provided with the app and in the project repository.</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>MAGBuildDate</key>
+	<string>@BUILD_DATE@</string>
+	<key>MAGBuildToolchain</key>
+	<string>@BUILD_TOOLCHAIN@</string>
+</dict>
+</plist>
